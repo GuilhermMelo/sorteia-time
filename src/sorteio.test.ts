@@ -2,6 +2,7 @@
  * Testes da lógica de sorteio (regras do manifesto, seção 3).
  * Foco em invariantes — não na ordem exata, já que o embaralhamento é aleatório.
  */
+import { describe, expect, it } from '@jest/globals';
 import {
   montarPoolToque,
   planejarToque,
