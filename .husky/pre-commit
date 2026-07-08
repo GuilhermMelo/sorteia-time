@@ -1,0 +1,2 @@
+echo "🔎 pre-commit: verificando tipos e testes..."
+npx tsc --noEmit && npm test

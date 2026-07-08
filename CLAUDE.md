@@ -46,6 +46,13 @@ APK (nuvem): `eas build -p android --profile preview` (perfil `preview` = APK;
 - As regras de negócio (nº de times, incompleto sempre por último, 1 goleiro por
   time, histórico FIFO 10) são fixas — não alterar sem pedido explícito.
 
+## Comandos do projeto (slash commands)
+
+Em `.claude/commands/`: `/dev` (sobe o Expo), `/apk` (build EAS), `/check`
+(tsc + testes).
+
 ## Antes de commitar
 
-Rode `npx tsc --noEmit` e `npm test`. O CI (GitHub Actions) roda os dois em cada push.
+Rode `npx tsc --noEmit` e `npm test` (ou `/check`). Um **hook de pre-commit
+(Husky)** já roda os dois automaticamente a cada commit; o CI (GitHub Actions)
+repete em cada push. Husky é ativado pelo script `prepare` no `npm install`.
