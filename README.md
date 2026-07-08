@@ -13,6 +13,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Plataforma](https://img.shields.io/badge/Android-APK-3DDC84?logo=android&logoColor=white)](#-gerar-o-apk-eas)
 [![Testes](https://img.shields.io/badge/testes-15%20passando-2FA05A)](#-testes)
+[![CI](https://github.com/GuilhermMelo/sorteia-time/actions/workflows/ci.yml/badge.svg)](https://github.com/GuilhermMelo/sorteia-time/actions/workflows/ci.yml)
 
 </div>
 
